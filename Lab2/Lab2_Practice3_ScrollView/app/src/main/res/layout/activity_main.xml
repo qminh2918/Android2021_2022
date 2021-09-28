@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:text="Tin tức sáng"
+                android:gravity="center"
+                ></TextView>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/onkk_zing"></ImageView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_gravity="center"
+                android:text="Ô nhiễm không khí ở Hà Nội sẽ gia tăng  vào dịp cuối năm do ảnh hưởng của thời tiết"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="800dp"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:text="Sáng 6/9, Tổng cục Môi trường có cảnh báo về chất lượng không khí ở một số đô thị trong tháng 8. Theo đánh giá, chất lượng không khí ở hầu hết thành phố duy trì mức tốt thời gian qua. Kết quả đo tại trạm quan trắc không khí tự dộng liên tục ở các đô thị miền Bắc, Trung, Nam cho thấy giá trị trung bình ...."
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
