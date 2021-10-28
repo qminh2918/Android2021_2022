@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <EditText
+        android:id="@+id/txtSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="text"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtSo"
+        android:layout_alignBottom="@+id/txtSo"
+        android:layout_alignParentLeft="true"
+        android:background="#deb887"
+        android:text="Nhập số :" />
+    <Button
+        android:id="@+id/btnNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtSo"
+        android:layout_below="@+id/txtSo"
+        android:layout_toRightOf="@+id/textView1"
+        android:textAlignment="center"
+        android:text="Nhập Số "
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/txtselection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnNhap"
+        android:background="#007380" />
+
+    <ListView
+        android:id="@+id/lvperson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtselection"
+        android:layout_alignParentLeft="true"
+        android:background="#cccccc"></ListView>
+</RelativeLayout>

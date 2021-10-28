@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn loại dưa"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_duahau"
+        android:text="Dưa hấu"
+        android:textSize="22sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <CheckBox
+        android:id="@+id/checkbox_duachuot"
+        android:text="Dưa chuột"
+        android:textSize="22sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <CheckBox
+        android:id="@+id/checkbox_duacai"
+        android:text="Dưa cải"
+        android:textSize="22sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <CheckBox
+        android:id="@+id/checkbox_duamuoi"
+        android:text="Dưa muối"
+        android:textSize="22sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hình thức thanh toán"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdo_tm"
+            android:text="Thanh toán tiền mặt"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+        <RadioButton
+            android:id="@+id/rdo_online"
+            android:text="Thanh toán online"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/mua"
+        android:text="Mua"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/donhang"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></TextView>
+
+
+</LinearLayout>

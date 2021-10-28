@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi: công thức thuốc tím là gì ?"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btn1"
+            android:freezesText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K2SO4 ">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btn2"
+            android:freezesText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KMnO2 ">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btn3"
+            android:freezesText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KCl ">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btn4"
+            android:freezesText="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KMnO4">
+        </RadioButton>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textMessage"
+        android:hint="Phương án chon của bạn là gì ?">
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả "
+        android:id="@+id/textButton"
+        android:enabled="false">
+
+    </Button>
+
+</LinearLayout>

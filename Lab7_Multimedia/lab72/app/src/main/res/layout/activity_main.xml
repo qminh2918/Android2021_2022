@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp" />
+    <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginTop="400dp"
+    android:onClick="PlayButton"
+    android:text="Play" />
+    <Button
+        android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginTop="480dp"
+    android:onClick="RestartButton"
+    android:text="Restart" />
+
+    <Button
+        android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="250dp"
+    android:layout_marginTop="480dp"
+    android:onClick="StopButton"
+    android:text="Stop" />
+
+    <Button
+        android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="250dp"
+    android:layout_marginTop="400dp"
+    android:onClick="PauseButton"
+    android:text="Pause" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="25dp"
+    android:layout_marginTop="320dp" />
+
+</RelativeLayout>

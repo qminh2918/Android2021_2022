@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="127dp"
+        android:layout_height="107dp"
+        app:icon="@drawable/sms"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="140dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="104dp"
+            android:layout_height="103dp"
+            android:background="#FFFFFF"
+            app:icon="@drawable/call"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="265dp" />
+
+        <Button
+            android:id="@+id/bws"
+            android:layout_width="108dp"
+            android:layout_height="106dp"
+            app:icon="@drawable/brs"
+            android:layout_marginLeft="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="239dp"
+            tools:layout_editor_absoluteY="265dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
