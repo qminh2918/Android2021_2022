@@ -1,0 +1,2 @@
+rootProject.name = "btl_sql"
+include ':app'
